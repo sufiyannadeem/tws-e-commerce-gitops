@@ -12,7 +12,7 @@ spec:
     spec:
       containers:
         - name: migration
-          image: sufiyannadeem/easyshop-migration:72
+          image: sufiyannadeem/easyshop-migration:73
           imagePullPolicy: Always
           env:
             - name: MONGODB_URI
