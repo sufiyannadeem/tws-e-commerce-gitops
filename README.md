@@ -6,8 +6,6 @@ It is used as the GitOps repository for managing application deployments to Amaz
 
 🔄 GitOps Workflow
 
-### It will render approximately like:
-
 **Jenkins**  
 ↓  
 **Build & Push Docker Image**  
@@ -19,20 +17,6 @@ It is used as the GitOps repository for managing application deployments to Amaz
 **Argo CD**  
 ↓  
 **Amazon EKS**
-
-You can also make it slightly more professional:
-
-
-## 🔄 GitOps Workflow
-
-
-flowchart TD
-    A[👨‍💻 Developer] --> B[⚙️ Jenkins]
-    B --> C[🐳 Build & Push Docker Image]
-    C --> D[📝 Update Kubernetes Manifests]
-    D --> E[📦 GitOps Repository]
-    E --> F[🔄 Argo CD]
-    F --> G[☸️ Amazon EKS]
 
 📂 Repository Contents
 
